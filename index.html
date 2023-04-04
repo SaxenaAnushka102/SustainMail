@@ -1,19 +1,121 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-   <link rel="stylesheet" href="index.css">
-    <title>CarbonReducer</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./popup.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+    <style>
+      .rectangle-parent {
+  width:443px;
+  height: 500px;
+}
+
+    </style>
   </head>
   <body>
-    <div class="container">
-      <h1>Reduce Carbon Emissions</h1>
-      <p>By deleting spam emails, you can help reduce carbon emissions from the energy used to store and transmit these unwanted messages.</p>
-      <button id="start-button" class="btn">Delete Spam Emails</button>
-    </div>
+    <div class="rectangle-parent" id="trash">
+      <div class="group-child"></div>
+      <p class="you-will-save">You will save</p>
 
-    <!-- Load the Gmail API -->
-    <script src="https://apis.google.com/js/api.js"></script>
-    <!-- <script src="popup.js"></script> -->
+      <button class="group-inner">Save Now</button>
+      
+      <div class="ellipse-parent" id="first">
+        <img class="ellipse-icon" alt="" src="public/ellipse-37.svg" />
+        <div class="junk-mails-found">28 junk mails found</div>
+        <div class="junk-mails-found">28 junk mails found</div>
+        <span class="spam-folder">Spam folder</span
+        ><button class="rectangle-button"> View all</button>
+       
+        <div class="material-symbolsfolder">
+          <img class="vector-icon" alt="" src="public/vector.svg" />
+        </div>
+        <img class="mdialert-icon" alt="" src="public/mdialert.svg" />
+      </div>
+      <div class="ellipse-group" id="second">
+        <img class="ellipse-icon" alt="" src="public/ellipse-39.svg" />
+        <div class="already-read-mail">18 already read mail found</div>
+        <span class="social">Spam folder</span
+        ><button class="rectangle-button"> View all</button>
+       
+        <div class="material-symbolsfolder-icon">
+          <img class="vector-icon" alt="" src="public/vector.svg" />
+        </div>
+        <img class="mdialert-icon" alt="" src="public/mdialert.svg" />
+      </div>
+      <div class="ellipse-container" id="third">
+        <img class="ellipse-icon" alt="" src="public/ellipse-39.svg" />
+        <div class="already-read-mail">100 already read mail found</div>
+        <span class="social">Social</span><button class="rectangle-button">View all</button>
+       
+        <img
+          class="material-symbolsfolder-icon"
+          alt=""
+          src="public/materialsymbolsfolder.svg"
+        /><img class="mdialert-icon" alt="" src="public/mdialert.svg" />
+      </div>
+      <img class="group-icon" alt="" src="public/group-1116599230.svg" />
+      <div class="group-div" id="fourth">
+        <img class="ellipse-icon" alt="" src="public/ellipse-41.svg" />
+        <div class="already-read-mail">13 important mail found</div>
+        <span class="social">Inbox</span
+        ><button class="rectangle-button">View All</button>
+        
+        <img
+          class="material-symbolsfolder-icon"
+          alt=""
+          src="public/materialsymbolsfolder.svg"
+        /><img
+          class="icon-park-solidcorrect"
+          alt=""
+          src="public/iconparksolidcorrect.svg"
+        />
+      </div>
+      <div class="rectangle-group">
+        <button class="group-child7"></button>
+        <div class="filter">Filter</div>
+        <img
+          class="material-symbolsarrow-drop-do-icon"
+          alt=""
+          src="public/materialsymbolsarrowdropdownrounded.svg"
+        />
+        <div class="parent">
+          <div class="div">19/02/2022 - 19/06/2022</div>
+          <img
+            class="material-symbolsmail-rounded-icon"
+            alt=""
+            src="public/materialsymbolsmailrounded.svg"
+          />
+        </div>
+      </div>
+      <div class="gb-of-storage-parent" id="last">
+        <div class="gb-of-storage">1.2 GB of storage</div>
+        <div class="gm"><span>32</span><span class="gm1">gm</span></div>
+        <img
+          class="material-symbolshome-storage-icon"
+          alt=""
+          src="public/materialsymbolshomestorage.svg"
+        /><img
+          class="carboncarbon-accounting-icon"
+          alt=""
+          src="public/carboncarbonaccounting.svg"
+        />
+      </div>
+    </div>
   </body>
+  <!-- client.js file should always be on top -->
+  <!-- <script src="https://apis.google.com/js/api.js"></script>
+    <script src="https://unpkg.com/@microsoft/mgt@2/dist/bundle/mgt-loader.js"></script>
+    <mgt-msal2-provider client-id="fb9db9e2-939d-401c-88a4-e90909eefc42"></mgt-msal2-provider>
+    <mgt-login></mgt-login> -->
+  <script src="https://unpkg.com/@microsoft/mgt@2/dist/bundle/mgt-loader.js"></script>
+  <mgt-msal2-provider client-id="fb9db9e2-939d-401c-88a4-e90909eefc42"></mgt-msal2-provider>
+  <script src="./client.js" type="module"></script> 
+
 </html>
