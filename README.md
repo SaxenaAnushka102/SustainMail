@@ -1,5 +1,5 @@
 # Carbon-Footprint-Tracker
-### Carbon Footprint tracker aims to create an impact by making users aware of their carbon footprint. They’re bringing a change playing their part to sustain the environment by taking a small step that is; reducing their carbon footprint.
+Carbon Footprint tracker aims to create an impact by making users aware of their carbon footprint. They’re bringing a change playing their part to sustain the environment by taking a small step that is; reducing their carbon footprint.
 
 ## Browser Extension for tracing Carbon footprint of a user’s mail account. 
 
@@ -24,10 +24,9 @@ To reduce the carbon footprint of emails, it is important to use more energy-eff
 ## Screenshots of Project
 Here are some screenshots of the project
 <div style="display:flex;justify-content:center;">
-    <img src="https://user-images.githubusercontent.com/77577005/224461317-207aaf72-a66e-4e95-86a4-86b4ba36c93b.png" width="500" height="440" style="margin-right:10px; margin-left:2px;">
-    <img src="https://user-images.githubusercontent.com/77577005/224461712-f2e69348-9b37-481d-911f-7072e9e35798.png" width="303" height="440" style="margin-left:10px;">
+    <img src="https://user-images.githubusercontent.com/58849657/231080687-7022527c-ce59-45c6-bd3e-e974d5552d87.png" width="305" height="440" style="margin-right:10px; margin-left:2px;">
+    <img src="https://user-images.githubusercontent.com/58849657/231080987-a9de2ea7-6c0a-4d80-87d8-ed4308515eba.png" width="303" height="440" style="margin-left:10px;">
 </div>
-
 
 
 ## Installation
