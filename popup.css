@@ -148,8 +148,6 @@ body {
   left: 65px;
 }
 
-
-
 .ellipse-group {
   position: absolute;
   top: 338px;
@@ -175,16 +173,18 @@ body {
 .ellipse-container,
 .group-icon {
   position: absolute;
-  top: 413px;
+  top: 395px;
   left: 34px;
   width: 376px;
   height: 46px;
 }
 .group-icon {
-  top: 25px;
-  left: 187px;
-  width: 70px;
-  height: 70px;
+position: left;
+width: 200px;
+height: 167px;
+top: 15px;
+left: 125px;
+
 }
 .icon-park-solidcorrect {
   position: absolute;
@@ -201,6 +201,7 @@ body {
   left: 34px;
   width: 376px;
   height: 46px;
+  
 }
 .group-child7 {
   cursor: pointer;
@@ -228,8 +229,19 @@ body {
 }
 .div {
   position: absolute;
-  top: 8px;
+  top: 10px;
   left: 42px;
+  font-size: var(--font-size-base);
+  color: var(--color-dimgray-200);
+}
+.div-line{
+  position: absolute;
+  top: 170px;
+  left: 105px;
+  width: 376px;
+  height: 1px;
+  font-size: x-small;
+  color: green
 }
 .material-symbolsmail-rounded-icon {
   position: absolute;
